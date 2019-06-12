@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "target": "es2018",
+    /* We can use all the latest and greatest js */
+    "sourceMap": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    /* Allows module.exports to be interpreted as export default */
+    "esModuleInterop": true,
+    /* Allows us to use default imports from commonJS modules (ex. import express from 'express'; instead of 'import * as express from 'express'; */
+    "baseUrl": ".",
+    "module": "commonjs" /* Output the JS as commonJs (its a node server, so this makes sense)*/ ,
+  },
+  "files": [
+    "./src/server.ts",
+    "./typings/index.d.ts"
+  ]
+}
